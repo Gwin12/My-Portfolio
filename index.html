@@ -1,303 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Godwin's Portfolio</title>
-        <meta content="width=device-width, initial-scale=1.0 maximum-scale=1.0" name="viewport">
-        <meta content="Godwin Portfolio" name="keywords">
-        <meta content="Godwin Portfolio" name="description">
+  <head>
+    <meta charset="utf-8" />
+    <title>Godwin's Portfolio</title>
+    <meta
+      content="width=device-width, initial-scale=1.0 maximum-scale=1.0"
+      name="viewport"
+    />
+    <meta content="Godwin Portfolio" name="keywords" />
+    <meta content="Godwin Portfolio" name="description" />
 
+    <link href="/img/personalpic-headshot.png" rel="icon" type="image/x-icon" />
 
-        <link href="/img/personalpic-headshot.png" rel="icon" type="image/x-icon">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
 
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+    <!-- CSS Libraries -->
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-        <!-- CSS Libraries -->
-        <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Nav Bar Start -->
+    <div class="navbar navbar-expand-lg bg-light navbar-light">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">Godwin</a>
+        <button
+          style="border: none"
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span style="font-size: 15px" class="navbar-toggler-icon"></span>
+        </button>
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-
-    <body data-spy="scroll" data-target=".navbar" data-offset="51">
-        
-        <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-light navbar-light">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand">Godwin</a>
-                <button style="border: none;" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span style="font-size: 15px;" class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto">
-                        <a href="#home" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Service</a>
-                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-                        <a href="#experience" class="nav-item nav-link">Experience</a>
-                        <!-- <a href="#price" class="nav-item nav-link">Price</a> -->
-                        <a href="#review" class="nav-item nav-link">Review</a>
-                        <!-- <a href="#team" class="nav-item nav-link">Team</a>
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav ml-auto">
+            <a href="#home" class="nav-item nav-link active">Home</a>
+            <a href="#about" class="nav-item nav-link">About</a>
+            <a href="#service" class="nav-item nav-link">Service</a>
+            <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+            <a href="#experience" class="nav-item nav-link">Experience</a>
+            <!-- <a href="#price" class="nav-item nav-link">Price</a> -->
+            <a href="#review" class="nav-item nav-link">Review</a>
+            <!-- <a href="#team" class="nav-item nav-link">Team</a>
                         <a href="#blog" class="nav-item nav-link">Blog</a> -->
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
-                    </div>
-                </div>
-            </div>
+            <a href="#contact" class="nav-item nav-link">Contact</a>
+          </div>
         </div>
-        <!-- Nav Bar End -->
+      </div>
+    </div>
+    <!-- Nav Bar End -->
 
-
-        <!-- Hero Start -->
-        <div class="hero" id="home">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="hero-content">
-                            <div class="hero-text">
-                                <p>I'm</p>
-                                <h1>Godwin Nwafor</h1>
-                                <h2></h2>
-                                <div class="typed-text">Web Developer, Back End Developer, Front End Developer, Computer Engineer, Computer Networking</div>
-                            </div>
-                            <div class="hero-btn">
-                                <a class="btn" href="/myCV/Godwin's Resume v3.pdf" download="Godwin Resumé.pdf">My Resumé</a>
-                                <a class="btn" href="mailto:?to=nwfrgodwin@gmail.com&subject=Project Collaboration&body=Hello, ">Contact Me</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 d-none d-md-block">
-                        <div class="hero-image">
-                            <img src="img/personalpicture-nobg.png" alt="Hero Image">
-                        </div>
-                    </div>
+    <!-- Hero Start -->
+    <div class="hero" id="home">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-6">
+            <div class="hero-content">
+              <div class="hero-text">
+                <p>I'm</p>
+                <h1>Godwin Nwafor</h1>
+                <h2></h2>
+                <div class="typed-text">
+                  Web Developer, Back End Developer, Front End Developer,
+                  Computer Engineer, Computer Networking
                 </div>
+              </div>
+              <div class="hero-btn">
+                <a
+                  class="btn"
+                  href="/myCV/Godwin Resumé v4.8.pdf"
+                  download="Godwin Resumé.pdf"
+                  >My Resumé</a
+                >
+                <a
+                  class="btn"
+                  href="mailto:?to=nwfrgodwin@gmail.com&subject=Project Collaboration&body=Hello, "
+                  >Contact Me</a
+                >
+              </div>
             </div>
+          </div>
+          <div class="col-sm-12 col-md-6 d-none d-md-block">
+            <div class="hero-image">
+              <img src="img/personalpicture-nobg.png" alt="Hero Image" />
+            </div>
+          </div>
         </div>
-        <!-- Hero End -->
+      </div>
+    </div>
+    <!-- Hero End -->
 
-
-        <!-- About Start -->
-        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-img">
-                            <img src="/img/personalpic-2-edit.jpg" alt="Image">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="about-content">
-                            <div class="section-header text-left">
-                                <p>Learn About Me</p>
-                                <h2>3+ Years Experience</h2>
-                            </div>
-
-                            <div style="margin-bottom: 30px;" class="about-text">
-                                <p>
-                                    I am Godwin, a distinguished individual holding a Bachelor of Engineering degree in Computer Engineering. With a specialized focus on backend development utilizing Node.js, I bring a wealth of knowledge and expertise to the field. My professional demeanor is characterized by a quiet confidence, complemented by a natural curiosity that propels me towards perpetual self-improvement.
-
-                                </p>
-
-                                <div class="learnMore --invisible">
-                                    <p>
-                                        As a Node.js backend developer, I am dedicated to delivering exceptional results through a combination of technical prowess, strategic thinking, and a commitment to continuous learning. My journey is marked by a relentless pursuit of excellence, and I am steadfastly engaged in refining my skills to stay at the forefront of the ever-evolving technological landscape.
-                                    </p>
-
-                                    <p>
-                                        Thank you for considering my profile, and I look forward to contributing my skills and dedication to any endeavor.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="skills">
-                                <div class="skill-name">
-                                    <p>Html & Css</p><p>95%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>JavaScript</p><p>90%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Node Js</p><p>95%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Mongo DB & MySQL</p><p>85%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Computer Networking (CCNA)</p><p>65%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p> Ethereum & Solidity (Web3)</p><p>15%</p>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                            <a class="btn" onclick="showMoreAboutMe()">Learn More</a>
-                        </div>
-                    </div>
-                </div>
+    <!-- About Start -->
+    <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-img">
+              <img src="/img/personalpic-2-edit.jpg" alt="Image" />
             </div>
-        </div><br>
-        <!-- About End -->
-        
-        
-        <!-- Service Start -->
-        <div class="service" id="service">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>What I do</p>
-                    <h2>Awesome Quality Services</h2>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content">
+              <div class="section-header text-left">
+                <p>Learn About Me</p>
+                <h2>3+ Years Experience</h2>
+              </div>
+
+              <div style="margin-bottom: 30px" class="about-text">
+                <p>
+                  I am Godwin, a distinguished individual holding a Bachelor of
+                  Engineering degree in Computer Engineering. With a specialized
+                  focus on backend development utilizing Node.js, I bring a
+                  wealth of knowledge and expertise to the field. My
+                  professional demeanor is characterized by a quiet confidence,
+                  complemented by a natural curiosity that propels me towards
+                  perpetual self-improvement.
+                </p>
+
+                <div class="learnMore --invisible">
+                  <p>
+                    As a Node.js backend developer, I am dedicated to delivering
+                    exceptional results through a combination of technical
+                    prowess, strategic thinking, and a commitment to continuous
+                    learning. My journey is marked by a relentless pursuit of
+                    excellence, and I am steadfastly engaged in refining my
+                    skills to stay at the forefront of the ever-evolving
+                    technological landscape.
+                  </p>
+
+                  <p>
+                    Thank you for considering my profile, and I look forward to
+                    contributing my skills and dedication to any endeavor.
+                  </p>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Web Development</h3>
-                                <p>A professional with expertise in designing, andimplementing high-quality websites. Skilled in HTML, CSS, JavaScript
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-laptop-code"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Back End Developer</h3>
-                                <p>
-                                    A specialized focus on backend development utilizing Nodejs and MongoDB for craetion of servers 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fas fa-cogs"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Computer Engineering</h3>
-                                <p>
-                                    A distinguished individual holding a Bachelor of Engineering degree in Electronics & Computer Engineering
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <!-- <i class="fab fa-apple"></i> -->
-                                <i class="fas fa-network-wired"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Computer Networking</h3>
-                                <p>
-                                    A satisfactory knowledge and skill Computer Networking and internet routing; Certified in compTIA N+
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+
+              <div class="skills">
+                <div class="skill-name">
+                  <p>Html & Css</p>
+                  <p>95%</p>
                 </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="skill-name">
+                  <p>JavaScript</p>
+                  <p>90%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="skill-name">
+                  <p>Node Js</p>
+                  <p>90%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="90"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="skill-name">
+                  <p>React Js</p>
+                  <p>95%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="skill-name">
+                  <p>Next Js</p>
+                  <p>85%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="skill-name">
+                  <p>Mongo DB & MySQL</p>
+                  <p>85%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="85"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="skill-name">
+                  <p>Computer Networking (CCNA)</p>
+                  <p>65%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="65"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <div class="skill-name">
+                  <p>Ethereum & Solidity (Web3)</p>
+                  <p>15%</p>
+                </div>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="15"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <a class="btn" onclick="showMoreAboutMe()">Learn More</a>
             </div>
-        </div><br><br>
-        <!-- Service End -->
-        
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <!-- About End -->
 
-        <!-- Banner Start -->
-        <div class="banner wow zoomIn" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Hello There</p>
-                    <!-- <h2>I'm <span>Godwin</span> Price</h2> -->
-                </div>
-                <div class="container banner-text">
-                    <p>
-                        Nice to meet you.
-                        Since beginning my journey as a freelance devloper 5 years ago, I've done remote work for agencies, consulted for startups, and 
-                        collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally 
-                        curious, and perpetually working on improving my skills.
-                    </p>
-                    <a class="btn">Contact Me</a>
-                </div>
+    <!-- Service Start -->
+    <div class="service" id="service">
+      <div class="container">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>What I do</p>
+          <h2>Awesome Quality Services</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="fa fa-laptop"></i>
+              </div>
+              <div class="service-text">
+                <h3>Web Development</h3>
+                <p>
+                  A professional with expertise in designing, andimplementing
+                  high-quality websites. Skilled in HTML, CSS, JavaScript, React Js & NodeJs.
+                </p>
+              </div>
             </div>
-        </div><br><br>
-        <!-- Banner End -->
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="fa fa-laptop-code"></i>
+              </div>
+              <div class="service-text">
+                <h3>Back End Developer</h3>
+                <p>
+                  A specialized focus on backend development utilizing Nodejs
+                  and MongoDB for craetion of servers
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="fas fa-cogs"></i>
+              </div>
+              <div class="service-text">
+                <h3>Computer Engineering</h3>
+                <p>
+                  A distinguished individual holding a Bachelor of Engineering
+                  degree in Electronics & Computer Engineering
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="service-item">
+              <div class="service-icon">
+                <!-- <i class="fab fa-apple"></i> -->
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <div class="service-text">
+                <h3>Computer Networking</h3>
+                <p>
+                  A satisfactory knowledge and skill Computer Networking and
+                  internet routing; Certified in compTIA N+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <!-- Service End -->
 
+    <!-- Banner Start -->
+    <div class="banner wow zoomIn" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="section-header text-center">
+          <p>Hello There</p>
+          <!-- <h2>I'm <span>Godwin</span> Price</h2> -->
+        </div>
+        <div class="container banner-text">
+          <p>
+            Nice to meet you. Since beginning my journey as a freelance
+            developer 4 years ago, I've done remote work for agencies, consulted
+            for startups, and collaborated with talented people to create
+            digital products for both business and consumer use. I'm quietly
+            confident, naturally curious, and perpetually working on improving
+            my skills.
+          </p>
+          <a class="btn">Contact Me</a>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <!-- Banner End -->
 
-
-        <!-- Portfolio Start -->
-        <!-- <div class="portfolio" id="portfolio">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Portfolio</p>
-                    <h2>My Excellent Portfolio</h2>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <ul id="portfolio-filter">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-1">Web Design</li>
-                            <li data-filter=".filter-2">Mobile Apps</li>
-                            <li data-filter=".filter-3">Game Dev</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row portfolio-container">
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-1.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>eCommerce Website</h3>
-                                <a class="btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-2.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Product Landing Page</h3>
-                                <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
+    <!-- Portfolio Start -->
+    <div class="portfolio" id="portfolio">
+      <div class="container">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>My Portfolio</p>
+          <h2>My Excellent Portfolio</h2>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <ul id="portfolio-filter">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-1">Web Design</li>
+              <!-- <li data-filter=".filter-2">Mobile Apps</li> -->
+              <!-- <li data-filter=".filter-3">Game Dev</li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container">
+          <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
+            data-wow-delay="0.0s"
+          >
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="img/arcsandglass.jpg" alt="Image" />
+              </div>
+              <div class="portfolio-text">
+                <h3>Real Estate Website</h3>
+                <a
+                  class="btn"
+                  target="_blank"
+                  href="https://www.arcsnglass.com/"
+                ><ion-icon name="arrow-forward-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+          <!-- <div
+            class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
+            data-wow-delay="0.2s"
+          >
+            <div class="portfolio-wrap">
+              <div class="portfolio-img">
+                <img src="img/portfolio-2.jpg" alt="Image" />
+              </div>
+              <div class="portfolio-text">
+                <h3>Product Landing Page</h3>
+                <a
+                  class="btn"
+                  target="_blank"
+                  href="img/portfolio-2.jpg"
+                  data-lightbox="portfolio"
+                  ><ion-icon name="arrow-forward-outline"></ion-icon></a
+                >
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
                                 <img src="img/portfolio-3.jpg" alt="Image">
@@ -340,76 +482,97 @@
                                 <a class="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div> -->
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+    <!-- Portfolio End -->
+
+    <!-- Experience Start -->
+    <div class="experience" id="experience">
+      <div class="container">
+        <header
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s"
+        >
+          <p>My Resume</p>
+          <h2>Working Experience</h2>
+        </header>
+        <div class="timeline">
+          <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+            <div class="timeline-text">
+              <div class="timeline-date">06/2024 - 10/2024</div>
+              <h2>MERN Stack Developer</h2>
+              <h4>Philip Tech World, Lagos, Nigeria</h4>
+              <p>
+                Collaborated with a team of seven to develop a loan application
+                & an E-commerce application.
+              </p>
             </div>
-        </div><br><br><br> -->
-        <!-- Portfolio End -->
-
-
-        
-        <!-- Experience Start -->
-        <div class="experience" id="experience">
-            <div class="container">
-                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Resume</p>
-                    <h2>Working Experience</h2>
-                </header>
-                <div class="timeline">
-                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">11/2023 - 01/2024</div>
-                            <h2>Back End Developer</h2>
-                            <h4>ForecastersRoyale, Lagos, Nigeria</h4>
-                            <p>
-                                Collaborated with the frontend team by providing them with REST APIs and telegram bot for user registration autentication
-                                using technologies like NodeJS & MySQL.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">02/2023 - 12/2023</div>
-                            <h2>Full Stack Developer</h2>
-                            <h4>ApexShares, Lagos, Nigeria</h4>
-                            <p>
-                                Contributed as Frontend developer on an the platform, using Nodejs for server-side rendering, MongoDB
-                                & MySQL for database, and Axios for API implementation.
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">04/2022 - 10/2022</div>
-                            <h2>Backend Developer</h2>
-                            <h4>ArbsKing, Lagos, Nigeria</h4>
-                            <p>
-                                Created and maintained the server-side for the application using framework like ExpressJS. Made use of technologies like 
-                                Playwright for web scrapping and WebSocket for live updates.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">10/2021 - 02/2022</div>
-                            <h2>Computer Networking Intern</h2>
-                            <h4>New Horizons Computer Learning Center, Lagos, Nigeria</h4>
-                            <p>
-                                Worked in a team comprising experts and interns to execute computer networking projects to consolidate learning and improve
-                                knowledge.
-                            </p>
-                        </div>
-                    </div>
-                      
-                </div>
+          </div>
+          <div
+            class="timeline-item right wow slideInRight"
+            data-wow-delay="0.1s"
+          >
+            <div class="timeline-text">
+              <div class="timeline-date">11/2023 - 02/2024</div>
+              <h2>Back End Developer</h2>
+              <h4>ForecastersRoyale, Lagos, Nigeria</h4>
+              <p>
+                Collaborated with the frontend team by providing them with REST
+                APIs and telegram bot for user registration autentication using
+                technologies like NodeJS & MySQL.
+              </p>
             </div>
-        </div><br><br>
-        <!-- Job Experience End -->
-        
-        
-        <!-- Banner Start -->
-        <!-- <div class="banner wow zoomIn" data-wow-delay="0.1s">
+          </div>
+          <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+            <div class="timeline-text">
+              <div class="timeline-date">02/2023 - 12/2023</div>
+              <h2>Full Stack Developer</h2>
+              <h4>ApexShares, Lagos, Nigeria</h4>
+              <p>
+                Contributed as Frontend developer on an the platform, using
+                Nodejs for server-side rendering, MongoDB & MySQL for database,
+                and Axios for API implementation.
+              </p>
+            </div>
+          </div>
+          <div
+            class="timeline-item right wow slideInRight"
+            data-wow-delay="0.1s"
+          >
+            <div class="timeline-text">
+              <div class="timeline-date">04/2022 - 10/2022</div>
+              <h2>Backend Developer</h2>
+              <h4>ArbsKing, Lagos, Nigeria</h4>
+              <p>
+                Created and maintained the server-side for the application using
+                framework like ExpressJS. Made use of technologies like
+                Playwright for web scrapping and WebSocket for live updates.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+            <div class="timeline-text">
+              <div class="timeline-date">10/2021 - 02/2022</div>
+              <h2>Computer Networking Intern</h2>
+              <h4>New Horizons Computer Learning Center, Lagos, Nigeria</h4>
+              <p>
+                Worked in a team comprising experts and interns to execute
+                computer networking projects to consolidate learning and improve
+                knowledge.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <!-- Job Experience End -->
+
+    <!-- Banner Start -->
+    <!-- <div class="banner wow zoomIn" data-wow-delay="0.1s">
             <div class="container">
                 <div class="section-header text-center">
                     <p>Awesome Discount</p>
@@ -423,11 +586,10 @@
                 </div>
             </div>
         </div> -->
-        <!-- Banner End -->
-        
-        
-        <!-- Price Start -->
-        <!-- <div class="price" id="price">
+    <!-- Banner End -->
+
+    <!-- Price Start -->
+    <!-- <div class="price" id="price">
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                     <p>Pricing Plan</p>
@@ -521,41 +683,42 @@
                 </div>
             </div>
         </div> -->
-        <!-- Price End -->
-        
-        
-        <!-- Testimonial Start -->
-        <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review">
-            <div class="container">
-                <div class="testimonial-icon">
-                    <i class="fa fa-quote-left"></i>
-                </div>
-                <div class="owl-carousel testimonials-carousel">
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/wahab-2.JPG" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                It was a pleasure working with Godwin on the ApexShares projects, a nice presence to be around.
-                            </p>
-                            <h3>Adekunle</h3>
-                            <h4>UI/UX, Motion Designer</h4>
-                        </div>
-                    </div>
-                    <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/blank profile pic.png" alt="">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                My requested site was done really well and faster than I expected. Thumbs up.
-                            </p>
-                            <h3>Uche</h3>
-                            <h4>Client</h4>
-                        </div>
-                    </div>
-                    <!-- <div class="testimonial-item">
+    <!-- Price End -->
+
+    <!-- Testimonial Start -->
+    <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review">
+      <div class="container">
+        <div class="testimonial-icon">
+          <i class="fa fa-quote-left"></i>
+        </div>
+        <div class="owl-carousel testimonials-carousel">
+          <div class="testimonial-item">
+            <div class="testimonial-img">
+              <img src="img/wahab-2.JPG" alt="Image" />
+            </div>
+            <div class="testimonial-text">
+              <p>
+                It was a pleasure working with Godwin on the ApexShares
+                projects, a nice presence to be around.
+              </p>
+              <h3>Adekunle</h3>
+              <h4>UI/UX, Motion Designer</h4>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-img">
+              <img src="img/blank profile pic.png" alt="" />
+            </div>
+            <div class="testimonial-text">
+              <p>
+                My requested site was done really well and faster than I
+                expected. Thumbs up.
+              </p>
+              <h3>Uche</h3>
+              <h4>Client</h4>
+            </div>
+          </div>
+          <!-- <div class="testimonial-item">
                         <div class="testimonial-img">
                             <img src="img/testimonial-3.jpg" alt="Image">
                         </div>
@@ -567,14 +730,13 @@
                             <h4>Profession</h4>
                         </div>
                     </div> -->
-                </div>
-            </div>
         </div>
-        <!-- Testimonial End -->
+      </div>
+    </div>
+    <!-- Testimonial End -->
 
-
-        <!-- Team Start -->
-        <!-- <div class="team" id="team">
+    <!-- Team Start -->
+    <!-- <div class="team" id="team">
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                     <p>My Team</p>
@@ -664,11 +826,10 @@
                 </div>
             </div>
         </div> -->
-        <!-- Team End -->
-        
-        
-        <!-- Contact Start -->
-        <!-- <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
+    <!-- Team End -->
+
+    <!-- Contact Start -->
+    <!-- <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
             <div class="container-fluid">
                 <div class="container">
                     <div class="row align-items-center">
@@ -703,30 +864,40 @@
                 </div>
             </div>
         </div><br><br> -->
-        <!-- Contact End -->
+    <!-- Contact End -->
 
-
-        <!-- Contact Start -->
-        <div style="margin: 200px 0px;" class="bannr wow zoomIn" data-wow-delay="0.1s" id="contact">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Contact</p>
-                    <h4>Interested in <span>collabrating</span> with me?</h4>
-                </div>
-                <div style="margin-top: -25px;" class="container banner-text text-center">
-                    <p>
-                        I’m always open to discussing product design work or partnership opportunities.
-                    </p>
-                    <a class="btn" href="mailto:?to=nwfrgodwin@gmail.com&subject=Project Collaboration&body=Hello, ">Start Conversation</a>
-                </div>
-            </div>
+    <!-- Contact Start -->
+    <div
+      style="margin: 200px 0px"
+      class="bannr wow zoomIn"
+      data-wow-delay="0.1s"
+      id="contact"
+    >
+      <div class="container">
+        <div class="section-header text-center">
+          <p>Contact</p>
+          <h4>Interested in <span>collabrating</span> with me?</h4>
         </div>
-        <!-- Contact End -->
+        <div
+          style="margin-top: -25px"
+          class="container banner-text text-center"
+        >
+          <p>
+            I’m always open to discussing product design work or partnership
+            opportunities.
+          </p>
+          <a
+            class="btn"
+            href="mailto:?to=nwfrgodwin@gmail.com&subject=Project Collaboration&body=Hello, "
+            >Start Conversation</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Contact End -->
 
-
-
-        <!-- Blog Start -->
-        <!-- <div class="blog" id="blog">
+    <!-- Blog Start -->
+    <!-- <div class="blog" id="blog">
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                     <p>From Blog</p>
@@ -776,78 +947,95 @@
                 </div>
             </div>
         </div> -->
-        <!-- Blog End -->
+    <!-- Blog End -->
 
-
-        <!-- Footer Start -->
-        <div class="footer wow fadeIn" data-wow-delay="0.3s">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="footer-info">
-                        <h2>Godwin Nwafor</h2>
-                        <h3>Lagos, Nigeria</h3>
-                        <div class="footer-menu">
-                            <p>+234 8088642060</p>
-                            <p>nwfrgodwin@gmail.com</p>
-                        </div>
-                        <div class="footer-social">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="https://web.facebook.com/godwin.nwafor.114"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://wa.me/+2348088642060"><i class="fab fa-whatsapp"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/godwin-nwafor-229b43268/"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container copyright">
-                    <p>&copy; <a href="https://godwin-portfolio.onrender.com">Godwin</a>, All Right Reserved | 
-					
-                    Designed By  <a href="mailto:nwfrgodwin@gmail.com" target="_blank">Godwin</a> & <a href="https://htmlcodex.com" target="_blank">HTML Codex</a></p>
-                </div>
+    <!-- Footer Start -->
+    <div class="footer wow fadeIn" data-wow-delay="0.3s">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="footer-info">
+            <h2>Godwin Nwafor</h2>
+            <h3>Lagos, Nigeria</h3>
+            <div class="footer-menu">
+              <p>+234 8088642060</p>
+              <p>nwfrgodwin@gmail.com</p>
             </div>
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="https://web.facebook.com/godwin.nwafor.114"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://wa.me/+2348088642060"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/godwin-nwafor-229b43268/"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
         </div>
-        <!-- Footer End -->
-        
-        
-        <!-- Back to top button -->
-        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
-        
-        <!-- Pre Loader -->
-        <div id="loader" class="show">
-            <div class="loader"></div>
+        <div class="container copyright">
+          <p>
+            &copy; <a href="https://godwin-portfolio.onrender.com">Godwin</a>,
+            All Right Reserved | Designed By
+            <a href="mailto:nwfrgodwin@gmail.com" target="_blank">Godwin</a> &
+            <a href="https://htmlcodex.com" target="_blank">HTML Codex</a>
+          </p>
         </div>
+      </div>
+    </div>
+    <!-- Footer End -->
 
+    <!-- Back to top button -->
+    <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-        <script>
-            const learnMore = document.querySelector(".learnMore")
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+      <div class="loader"></div>
+    </div>
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
-            function showMoreAboutMe() {
-                learnMore.classList.remove("--invisible")
-            }
+    <script>
+      const learnMore = document.querySelector(".learnMore");
 
-        </script>
+      function showMoreAboutMe() {
+        learnMore.classList.remove("--invisible");
+      }
+    </script>
 
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/typed/typed.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
