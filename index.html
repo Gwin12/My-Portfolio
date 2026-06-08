@@ -2,897 +2,629 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Godwin's Portfolio</title>
+        <title>Godwin Nwafor — Backend Engineer</title>
         <meta
-            content="width=device-width, initial-scale=1.0 maximum-scale=1.0"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
             name="viewport"
         />
-        <meta content="Godwin Portfolio" name="keywords" />
-        <meta content="Godwin Portfolio" name="description" />
-
-        <!-- <link
-            href="/img/personalpic-headshot.png"
-            rel="icon"
-            type="image/x-icon"
-        /> -->
+        <meta content="Godwin Nwafor — Backend Engineer, MERN Stack Developer, Node.js, PostgreSQL" name="keywords" />
+        <meta content="Godwin Nwafor is a Backend-focused MERN Stack Developer based in Lagos, Nigeria, specializing in scalable REST APIs, Node.js, and PostgreSQL." name="description" />
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon" />
 
-        <!-- Google Font -->
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
         />
-        
 
-        <!-- CSS Libraries -->
-        <!-- Icon Font Stylesheet -->
+        <!-- Icon Font -->
         <link
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
             rel="stylesheet"
         />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-            rel="stylesheet"
-        />
+
+        <!-- Bootstrap (minimal, for grid/collapse only) -->
         <link
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
             rel="stylesheet"
         />
-        <link
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-            rel="stylesheet"
-        />
+
+        <!-- Animate & Lightbox -->
         <link href="lib/animate/animate.min.css" rel="stylesheet" />
-        <link
-            href="lib/owlcarousel/assets/owl.carousel.min.css"
-            rel="stylesheet"
-        />
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
         <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
 
-        <!-- Template Stylesheet -->
+        <!-- Custom Stylesheet -->
         <link href="css/style.css" rel="stylesheet" />
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="51">
-        <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-light navbar-light">
+
+        <!-- ===================== NAVBAR ===================== -->
+        <div class="navbar navbar-expand-lg" id="mainNavbar">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand">Godwin</a>
+                <a href="#home" class="navbar-brand">G.</a>
                 <button
-                    style="border: none"
                     type="button"
                     class="navbar-toggler"
                     data-toggle="collapse"
                     data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
                 >
-                    <span
-                        style="font-size: 15px"
-                        class="navbar-toggler-icon"
-                    ></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div
-                    class="collapse navbar-collapse justify-content-between"
-                    id="navbarCollapse"
-                >
-                    <div class="navbar-nav ml-auto">
-                        <a href="#home" class="nav-item nav-link active"
-                            >Home</a
-                        >
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Service</a>
-                        <a href="#portfolio" class="nav-item nav-link"
-                            >Portfolio</a
-                        >
-                        <a href="#experience" class="nav-item nav-link"
-                            >Experience</a
-                        >
-                        <!-- <a href="#price" class="nav-item nav-link">Price</a> -->
-                        <a href="#review" class="nav-item nav-link">Review</a>
-                        <!-- <a href="#team" class="nav-item nav-link">Team</a>
-                        <a href="#blog" class="nav-item nav-link">Blog</a> -->
+                        <a href="#service" class="nav-item nav-link">Services</a>
+                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                        <a href="#experience" class="nav-item nav-link">Experience</a>
+                        <a href="#review" class="nav-item nav-link">Reviews</a>
                         <a href="#contact" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Nav Bar End -->
+        <!-- ===================== NAVBAR END ===================== -->
 
-        <!-- Hero Start -->
+        <!-- ===================== HERO ===================== -->
         <div class="hero" id="home">
+            <!-- Background orbs -->
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+
             <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-sm-12 col-md-6">
+                <div class="row align-items-center" style="min-height: 100vh;">
+                    <!-- Left: Text -->
+                    <div class="col-lg-7">
                         <div class="hero-content">
+                            <div class="hero-badge">
+                                <span class="hero-badge-dot"></span>
+                                Open to opportunities
+                            </div>
+
                             <div class="hero-text">
-                                <p>I'm</p>
-                                <h1>Godwin Nwafor</h1>
+                                <p>Hey there, I'm</p>
+                                <h1><span>Godwin</span> Nwafor</h1>
                                 <h2></h2>
                                 <div class="typed-text">
-                                    Web Developer, Back End Developer, Front End
-                                    Developer, Computer Engineer, Computer
-                                    Networking
+                                    Backend Engineer, MERN Stack Developer, API Architect, Node.js Expert
                                 </div>
                             </div>
+
+                            <p class="hero-summary">
+                                Backend-focused MERN Stack Developer with 4+ years of professional experience
+                                building scalable web applications and REST APIs. Based in Lagos, Nigeria.
+                            </p>
+
                             <div class="hero-btn">
                                 <a
                                     class="btn"
-                                    href="/myCV/Godwin Resumé v5.1.pdf"
+                                    href="/myCV/Godwin Resumé v5.4.pdf"
                                     download="Godwin Resumé.pdf"
-                                    >My Resumé</a
+                                    id="btn-resume"
                                 >
+                                    <i class="fas fa-download"></i> Download CV
+                                </a>
                                 <a
-                                    class="btn"
+                                    class="btn btn-outline"
                                     href="mailto:?to=nwfrgodwin@gmail.com&subject=Project Collaboration&body=Hello, "
-                                    >Contact Me</a
+                                    id="btn-contact"
                                 >
+                                    <i class="fas fa-envelope"></i> Contact Me
+                                </a>
+                            </div>
+
+                            <div class="hero-stats">
+                                <div class="hero-stat-item">
+                                    <div class="hero-stat-number">4+</div>
+                                    <div class="hero-stat-label">Years Exp.</div>
+                                </div>
+                                <div class="hero-stat-item">
+                                    <div class="hero-stat-number">10+</div>
+                                    <div class="hero-stat-label">Projects</div>
+                                </div>
+                                <div class="hero-stat-item">
+                                    <div class="hero-stat-number">5</div>
+                                    <div class="hero-stat-label">Companies</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 d-none d-md-block">
-                        <div class="hero-image">
-                            <img
-                                src="img/personalpicture-nobg.png"
-                                alt="Hero Image"
-                            />
+
+                    <!-- Right: Tech Cards -->
+                    <div class="col-lg-5 d-none d-lg-flex">
+                        <div class="hero-visual">
+                            <div class="tech-card-grid">
+                                <div class="tech-card featured">
+                                    <span class="tech-card-icon">⚡</span>
+                                    <div class="tech-card-name">Backend Architecture</div>
+                                    <div class="tech-card-sub">Node.js · Express.js · REST APIs · WebSockets</div>
+                                    <div class="status-badge">
+                                        <span class="status-badge-dot"></span>
+                                        Founder — YardPeople &amp; Cornie Health
+                                    </div>
+                                </div>
+                                <div class="tech-card">
+                                    <span class="tech-card-icon">🗄️</span>
+                                    <div class="tech-card-name">Databases &amp; Cache</div>
+                                    <div class="tech-card-sub">PostgreSQL · MongoDB · Redis</div>
+                                </div>
+                                <div class="tech-card">
+                                    <span class="tech-card-icon">⚛️</span>
+                                    <div class="tech-card-name">Frontend</div>
+                                    <div class="tech-card-sub">React.js · Next.js · Tailwind</div>
+                                </div>
+                                <div class="tech-card">
+                                    <span class="tech-card-icon">🐳</span>
+                                    <div class="tech-card-name">DevOps</div>
+                                    <div class="tech-card-sub">Docker · GitHub Actions · CI/CD</div>
+                                </div>
+                                <div class="tech-card">
+                                    <span class="tech-card-icon">📄</span>
+                                    <div class="tech-card-name">API Docs</div>
+                                    <div class="tech-card-sub">Swagger · OpenAPI · Rate Limiting</div>
+                                </div>
+                                <div class="tech-card">
+                                    <span class="tech-card-icon">🎓</span>
+                                    <div class="tech-card-name">B.Eng. CompEng</div>
+                                    <div class="tech-card-sub">Nnamdi Azikiwe Uni. · 2023</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Hero End -->
+        <!-- ===================== HERO END ===================== -->
 
-        <!-- About Start -->
+        <!-- ===================== ABOUT ===================== -->
         <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
             <div class="container-fluid">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="about-img">
-                            <img
-                                src="/img/personalpic-2-edit.jpg"
-                                alt="Image"
-                            />
+                            <img src="/img/personalpic-2-edit.jpg" alt="Godwin Nwafor" />
+                            <div class="img-overlay"></div>
+                            <div class="img-corner tl"></div>
+                            <div class="img-corner tr"></div>
+                            <div class="img-corner bl"></div>
+                            <div class="img-corner br"></div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="about-content">
                             <div class="section-header text-left">
                                 <p>Learn About Me</p>
-                                <h2>4+ Years Experience</h2>
+                                <h2>4+ Years of<br>Building Systems</h2>
                             </div>
 
-                            <div style="margin-bottom: 30px" class="about-text">
+                            <div class="about-text" style="margin-bottom: 30px">
                                 <p>
-                                    I am Godwin, a distinguished individual
-                                    holding a Bachelor of Engineering degree in
-                                    Computer Engineering. With a specialized
-                                    focus on backend development utilizing
-                                    Node.js, I bring a wealth of knowledge and
-                                    expertise to the field. My professional
-                                    demeanor is characterized by a quiet
-                                    confidence, complemented by a natural
-                                    curiosity that propels me towards perpetual
-                                    self-improvement.
+                                    I am Godwin, a Backend-focused MERN Stack Developer holding a Bachelor of
+                                    Engineering in Computer Engineering. With specialized expertise in Node.js,
+                                    PostgreSQL, and scalable REST APIs, I build systems that are reliable,
+                                    maintainable, and performance-optimized.
                                 </p>
 
                                 <div class="learnMore --invisible">
                                     <p>
-                                        As a Node.js backend developer, I am
-                                        dedicated to delivering exceptional
-                                        results through a combination of
-                                        technical prowess, strategic thinking,
-                                        and a commitment to continuous learning.
-                                        My journey is marked by a relentless
-                                        pursuit of excellence, and I am
-                                        steadfastly engaged in refining my
-                                        skills to stay at the forefront of the
-                                        ever-evolving technological landscape.
+                                        As a Node.js backend developer, I am dedicated to delivering exceptional
+                                        results through a combination of technical prowess, strategic thinking,
+                                        and a commitment to continuous learning. My journey is marked by a
+                                        relentless pursuit of excellence, and I am steadfastly engaged in
+                                        refining my skills to stay at the forefront of the ever-evolving
+                                        technological landscape.
                                     </p>
-
                                     <p>
-                                        Thank you for considering my profile,
-                                        and I look forward to contributing my
-                                        skills and dedication to any endeavor.
+                                        Thank you for considering my profile, and I look forward to contributing
+                                        my skills and dedication to any endeavor.
                                     </p>
                                 </div>
                             </div>
 
                             <div class="skills">
                                 <div class="skill-name">
-                                    <p>Html & Css</p>
-                                    <p>95%</p>
+                                    <p>JavaScript (ES6+) / HTML5 / CSS3</p><p>95%</p>
                                 </div>
                                 <div class="progress">
-                                    <div
-                                        class="progress-bar"
-                                        role="progressbar"
-                                        aria-valuenow="95"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"
-                                    ></div>
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
+
                                 <div class="skill-name">
-                                    <p>JavaScript</p>
-                                    <p>90%</p>
+                                    <p>Node.js / Express.js / REST APIs</p><p>92%</p>
                                 </div>
                                 <div class="progress">
-                                    <div
-                                        class="progress-bar"
-                                        role="progressbar"
-                                        aria-valuenow="90"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"
-                                    ></div>
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
+
                                 <div class="skill-name">
-                                    <p>Node Js</p>
-                                    <p>90%</p>
+                                    <p>PostgreSQL / MongoDB / MySQL / Redis</p><p>88%</p>
                                 </div>
                                 <div class="progress">
-                                    <div
-                                        class="progress-bar"
-                                        role="progressbar"
-                                        aria-valuenow="90"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"
-                                    ></div>
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
+
                                 <div class="skill-name">
-                                    <p>React Js</p>
-                                    <p>95%</p>
+                                    <p>React.js / Next.js / Tailwind CSS</p><p>82%</p>
                                 </div>
                                 <div class="progress">
-                                    <div
-                                        class="progress-bar"
-                                        role="progressbar"
-                                        aria-valuenow="95"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"
-                                    ></div>
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
+
                                 <div class="skill-name">
-                                    <p>Next Js</p>
-                                    <p>85%</p>
+                                    <p>Docker / GitHub Actions (CI/CD)</p><p>80%</p>
                                 </div>
                                 <div class="progress">
-                                    <div
-                                        class="progress-bar"
-                                        role="progressbar"
-                                        aria-valuenow="85"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"
-                                    ></div>
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
+
                                 <div class="skill-name">
-                                    <p>Mongo DB & MySQL</p>
-                                    <p>85%</p>
+                                    <p>Swagger / OpenAPI / System Design</p><p>85%</p>
                                 </div>
                                 <div class="progress">
-                                    <div
-                                        class="progress-bar"
-                                        role="progressbar"
-                                        aria-valuenow="85"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"
-                                    ></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Computer Networking (CCNA)</p>
-                                    <p>65%</p>
-                                </div>
-                                <div class="progress">
-                                    <div
-                                        class="progress-bar"
-                                        role="progressbar"
-                                        aria-valuenow="65"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"
-                                    ></div>
-                                </div>
-                                <div class="skill-name">
-                                    <p>Ethereum & Solidity (Web3)</p>
-                                    <p>15%</p>
-                                </div>
-                                <div class="progress">
-                                    <div
-                                        class="progress-bar"
-                                        role="progressbar"
-                                        aria-valuenow="15"
-                                        aria-valuemin="0"
-                                        aria-valuemax="100"
-                                    ></div>
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
-                            <a class="btn" onclick="showMoreAboutMe()"
-                                >Learn More</a
-                            >
+
+                            <a class="btn" onclick="showMoreAboutMe()" id="btn-learn-more">
+                                <i class="fas fa-chevron-down"></i> Learn More
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <br />
-        <!-- About End -->
+        <!-- ===================== ABOUT END ===================== -->
 
-        <!-- Service Start -->
+        <!-- ===================== SERVICE ===================== -->
         <div class="service" id="service">
             <div class="container">
-                <div
-                    class="section-header text-center wow zoomIn"
-                    data-wow-delay="0.1s"
-                >
-                    <p>What I do</p>
-                    <h2>Awesome Quality Services</h2>
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>What I Do</p>
+                    <h2>My Core Services</h2>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Web Development</h3>
-                                <p>
-                                    A professional with expertise in designing,
-                                    andimplementing high-quality websites.
-                                    Skilled in HTML, CSS, JavaScript, React Js &
-                                    NodeJs.
-                                </p>
-                            </div>
+                <div class="service-grid">
+                    <div class="service-item wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="service-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Backend Development</h3>
+                            <p>
+                                Designing and building scalable REST APIs, authentication systems,
+                                and microservices using Node.js, Express.js, PostgreSQL, and MongoDB.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-laptop-code"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Back End Developer</h3>
-                                <p>
-                                    A specialized focus on backend development
-                                    utilizing Nodejs and MongoDB for craetion of
-                                    servers
-                                </p>
-                            </div>
+                    <div class="service-item wow fadeInUp" data-wow-delay="0.15s">
+                        <div class="service-icon">
+                            <i class="fa fa-laptop"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Full-Stack Web Development</h3>
+                            <p>
+                                End-to-end web application development using React.js, Next.js, and
+                                Node.js — from server-side rendering to API integration workflows.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fas fa-cogs"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Computer Engineering</h3>
-                                <p>
-                                    A distinguished individual holding a
-                                    Bachelor of Engineering degree in
-                                    Electronics & Computer Engineering
-                                </p>
-                            </div>
+                    <div class="service-item wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>API Architecture & Integration</h3>
+                            <p>
+                                Architecting RESTful APIs with dependency injection patterns,
+                                real-time WebSocket systems, and third-party service integrations.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <!-- <i class="fab fa-apple"></i> -->
-                                <i class="fas fa-network-wired"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Computer Networking</h3>
-                                <p>
-                                    A satisfactory knowledge and skill Computer
-                                    Networking and internet routing; Certified
-                                    in compTIA N+
-                                </p>
-                            </div>
+                    <div class="service-item wow fadeInUp" data-wow-delay="0.45s">
+                        <div class="service-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>Computer Networking</h3>
+                            <p>
+                                Solid knowledge of computer networking fundamentals and internet routing.
+                                Experienced in VPS, SSH, and deployment workflows using cPanel.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <br /><br />
-        <!-- Service End -->
+        <!-- ===================== SERVICE END ===================== -->
 
-        <!-- Banner Start -->
+        <!-- ===================== BANNER ===================== -->
         <div class="banner wow zoomIn" data-wow-delay="0.1s">
             <div class="container">
                 <div class="section-header text-center">
                     <p>Hello There</p>
-                    <!-- <h2>I'm <span>Godwin</span> Price</h2> -->
                 </div>
                 <div class="container banner-text">
                     <p>
-                        Nice to meet you. Since beginning my journey as a
-                        freelance developer 4 years ago, I've done remote work
-                        for agencies, consulted for startups, and collaborated
-                        with talented people to create digital products for both
-                        business and consumer use. I'm quietly confident,
-                        naturally curious, and perpetually working on improving
-                        my skills.
+                        Nice to meet you. Since beginning my journey as a developer 4+ years ago,
+                        I've worked on fintech, healthcare, and SaaS applications — building scalable
+                        backend systems, mentoring teams, and shipping real products. I'm quietly
+                        confident, naturally curious, and perpetually working on improving my skills.
                     </p>
-                    <a class="btn">Contact Me</a>
+                    <a
+                        class="btn"
+                        href="mailto:?to=nwfrgodwin@gmail.com&subject=Project Collaboration&body=Hello, "
+                    >Contact Me</a>
                 </div>
             </div>
         </div>
-        <br /><br />
-        <!-- Banner End -->
+        <!-- ===================== BANNER END ===================== -->
 
-        <!-- Portfolio Start -->
+        <!-- ===================== PORTFOLIO ===================== -->
         <div class="portfolio" id="portfolio">
             <div class="container">
-                <div
-                    class="section-header text-center wow zoomIn"
-                    data-wow-delay="0.1s"
-                >
-                    <p>My Portfolio</p>
-                    <h2>My Excellent Portfolio</h2>
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Work</p>
+                    <h2>Featured Projects</h2>
                 </div>
                 <div class="row">
                     <div class="col-12">
                         <ul id="portfolio-filter">
                             <li data-filter="*" class="filter-active">All</li>
                             <li data-filter=".filter-1">Personal Projects</li>
-                            <!-- <li data-filter=".filter-2">Mobile Apps</li> -->
-                            <!-- <li data-filter=".filter-3">Game Dev</li> -->
                         </ul>
                     </div>
                 </div>
-                <div class="row portfolio-container portfol">
-                    <div
-                        class="col-lg-4 col-md-6 col-sm-12 portfolio-item wow fadeInUp"
-                        data-wow-delay="0.2s"
-                    >
+                <div class="portfolio-container portfol">
+                    <div class="portfolio-item wow fadeInUp" data-wow-delay="0.1s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="img/prop_manage.png" alt="Image" />
+                                <img src="img/prop_manage.png" alt="Property Management Platform" />
                             </div>
                             <div class="portfolio-text">
                                 <h3>Property Management</h3>
-                                <a
-                                    class="btn"
-                                    target="_blank"
-                                    href="https://yardpeople.ng/"
-                                    ><ion-icon
-                                        name="arrow-forward-outline"
-                                    ></ion-icon
-                                ></a>
+                                <a class="btn" target="_blank" href="https://yardpeople.ng/" id="proj-yardpeople">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="col-lg-4 col-md-6 col-sm-12 portfolio-item wow fadeInUp"
-                        data-wow-delay="0.2s"
-                    >
+
+                    <div class="portfolio-item wow fadeInUp" data-wow-delay="0.15s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="img/v.png" alt="Image" />
+                                <img src="img/v.png" alt="E-Commerce Website" />
                             </div>
                             <div class="portfolio-text">
                                 <h3>E-Commerce Website</h3>
-                                <a
-                                    class="btn"
-                                    target="_blank"
-                                    href="https://www.v-editionline.com/"
-                                    ><ion-icon
-                                        name="arrow-forward-outline"
-                                    ></ion-icon
-                                ></a>
+                                <a class="btn" target="_blank" href="https://www.v-editionline.com/" id="proj-vedition">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </a>
                             </div>
                         </div>
                     </div>
 
-                    <div
-                        class="col-lg-4 col-md-6 col-sm-12 portfolio-item wow fadeInUp"
-                        data-wow-delay="0.0s"
-                    >
+                    <div class="portfolio-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="img/gathrone.png" alt="Image" />
+                                <img src="img/gathrone.png" alt="Game Website" />
                             </div>
                             <div class="portfolio-text">
                                 <h3>Game Website</h3>
-                                <a
-                                    class="btn"
-                                    target="_blank"
-                                    href="https://gathrone.vercel.app/"
-                                    ><ion-icon
-                                        name="arrow-forward-outline"
-                                    ></ion-icon
-                                ></a>
+                                <a class="btn" target="_blank" href="https://gathrone.vercel.app/" id="proj-gathrone">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </a>
                             </div>
                         </div>
                     </div>
 
-                    <div
-                        class="col-lg-4 col-md-6 col-sm-12 portfolio-item wow fadeInUp"
-                        data-wow-delay="0.0s"
-                    >
+                    <div class="portfolio-item wow fadeInUp" data-wow-delay="0.25s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="img/arcsandglass.jpg" alt="Image" />
+                                <img src="img/arcsandglass.jpg" alt="Real Estate Website" />
                             </div>
                             <div class="portfolio-text">
                                 <h3>Real Estate Website</h3>
-                                <a
-                                    class="btn"
-                                    target="_blank"
-                                    href="https://www.arcsnglass.com/"
-                                    ><ion-icon
-                                        name="arrow-forward-outline"
-                                    ></ion-icon
-                                ></a>
+                                <a class="btn" target="_blank" href="https://www.arcsnglass.com/" id="proj-arcs">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
-                        data-wow-delay="0.2s"
-                    >
+
+                    <div class="portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="img/company_screen.jpg" alt="Image" />
+                                <img src="img/company_screen.jpg" alt="NextEdge Studio" />
                             </div>
                             <div class="portfolio-text">
                                 <h3>NextEdge Studio</h3>
-                                <a
-                                    class="btn"
-                                    target="_blank"
-                                    href="https://next-edge-fe.vercel.app/"
-                                    ><ion-icon
-                                        name="arrow-forward-outline"
-                                    ></ion-icon
-                                ></a>
+                                <a class="btn" target="_blank" href="https://next-edge-fe.vercel.app/" id="proj-nextedge">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
-                        data-wow-delay="0.2s"
-                    >
+
+                    <div class="portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.35s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="img/social_img.jpg" alt="Image" />
+                                <img src="img/social_img.jpg" alt="Social App" />
                             </div>
                             <div class="portfolio-text">
                                 <h3>Social App</h3>
-                                <a
-                                    class="btn"
-                                    target="_blank"
-                                    href="https://social-app-sandy-six.vercel.app/"
-                                    ><ion-icon
-                                        name="arrow-forward-outline"
-                                    ></ion-icon
-                                ></a>
+                                <a class="btn" target="_blank" href="https://social-app-sandy-six.vercel.app/" id="proj-social">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
-                        data-wow-delay="0.2s"
-                    >
+
+                    <div class="portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="img/link_node.png" alt="Image" />
+                                <img src="img/link_node.png" alt="Link Node" />
                             </div>
                             <div class="portfolio-text">
                                 <h3>Link Node</h3>
-                                <a
-                                    class="btn"
-                                    target="_blank"
-                                    href="https://link-node-eosin.vercel.app/"
-                                    ><ion-icon
-                                        name="arrow-forward-outline"
-                                    ></ion-icon
-                                ></a>
+                                <a class="btn" target="_blank" href="https://link-node-eosin.vercel.app/" id="proj-linknode">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
-                        data-wow-delay="0.2s"
-                    >
+
+                    <div class="portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.45s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="img/apex.png" alt="Image" />
+                                <img src="img/apex.png" alt="ThrillZone" />
                             </div>
                             <div class="portfolio-text">
                                 <h3>ThrillZone</h3>
-                                <a
-                                    class="btn"
-                                    target="_blank"
-                                    href="https://thrillzone.vercel.app/"
-                                    ><ion-icon
-                                        name="arrow-forward-outline"
-                                    ></ion-icon
-                                ></a>
+                                <a class="btn" target="_blank" href="https://thrillzone.vercel.app/" id="proj-thrillzone">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
-                        data-wow-delay="0.2s"
-                    >
+
+                    <div class="portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="portfolio-wrap">
                             <div class="portfolio-img">
-                                <img src="img/task_manager.png" alt="Image" />
+                                <img src="img/task_manager.png" alt="Task Manager" />
                             </div>
                             <div class="portfolio-text">
                                 <h3>Task Manager</h3>
-                                <a
-                                    class="btn"
-                                    target="_blank"
-                                    href="https://github.com/Gwin12/Task_manager"
-                                    ><ion-icon
-                                        name="arrow-forward-outline"
-                                    ></ion-icon
-                                ></a>
+                                <a class="btn" target="_blank" href="https://github.com/Gwin12/Task_manager" id="proj-taskmanager">
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-3.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>JavaScript quiz game</h3>
-                                <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-4.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>JavaScript drawing</h3>
-                                <a class="btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-5.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Social Mobile Apps</h3>
-                                <a class="btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
-                        <div class="portfolio-wrap">
-                            <div class="portfolio-img">
-                                <img src="img/portfolio-6.jpg" alt="Image">
-                            </div>
-                            <div class="portfolio-text">
-                                <h3>Company Website</h3>
-                                <a class="btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">+</a>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
-        <br /><br /><br />
-        <!-- Portfolio End -->
+        <!-- ===================== PORTFOLIO END ===================== -->
 
-        <!-- Experience Start -->
+        <!-- ===================== EXPERIENCE ===================== -->
         <div class="experience" id="experience">
             <div class="container">
-                <header
-                    class="section-header text-center wow zoomIn"
-                    data-wow-delay="0.1s"
-                >
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                     <p>My Resume</p>
                     <h2>Working Experience</h2>
                 </header>
                 <div class="timeline">
-                    <div
-                        class="timeline-item left wow slideInLeft"
-                        data-wow-delay="0.1s"
-                    >
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                         <div class="timeline-text">
-                            <div class="timeline-date">06/2024 - 10/2024</div>
+                            <div class="timeline-date">Aug 2025 – Present</div>
+                            <h2>Founder &amp; Backend Engineer</h2>
+                            <h4>YardPeople — Lagos, Nigeria</h4>
+                            <p>
+                                Architected a Nigeria-focused property management platform enabling digital rent
+                                payments and automated maintenance tracking. Designed scalable REST APIs with
+                                Node.js, Express.js, and MongoDB — documented via Swagger/OpenAPI. Integrated
+                                Monnify payment gateways, implemented Redis caching, custom
+                                rate-limiting (RBAC), Docker containerization, and automated CI/CD pipelines
+                                via GitHub Actions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Oct 2025 – Present</div>
+                            <h2>Backend Engineer</h2>
+                            <h4>Cornie Health — Lagos, Nigeria</h4>
+                            <p>
+                                Collaborating in an Agile cross-functional team to develop a high-availability
+                                healthcare ecosystem connecting practitioners and patients globally. Engineered
+                                secure, decoupled REST APIs with Node.js and PostgreSQL. Spearheaded backend
+                                reorganization around Dependency Injection architecture, improving testability
+                                and feature development velocity.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">Jun 2024 – Oct 2024</div>
                             <h2>MERN Stack Developer</h2>
-                            <h4>Philip Tech World, Lagos, Nigeria</h4>
+                            <h4>Philip Tech World — Lagos, Nigeria</h4>
                             <p>
-                                Collaborated with a team of seven to develop a
-                                loan application & an E-commerce application.
+                                Built modular, responsive fintech interfaces with Next.js, Tailwind CSS, and
+                                structured Redux global state patterns. Developed robust server-side REST APIs
+                                with Node.js and MongoDB. Implemented custom attendance tracking engines with
+                                timezone-resilient clock-in/clock-out mechanisms.
                             </p>
                         </div>
                     </div>
-                    <div
-                        class="timeline-item right wow slideInRight"
-                        data-wow-delay="0.1s"
-                    >
+
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
                         <div class="timeline-text">
-                            <div class="timeline-date">11/2023 - 02/2024</div>
-                            <h2>Back End Developer</h2>
-                            <h4>ForecastersRoyale, Lagos, Nigeria</h4>
-                            <p>
-                                Collaborated with the frontend team by providing
-                                them with REST APIs and telegram bot for user
-                                registration autentication using technologies
-                                like NodeJS & MySQL.
-                            </p>
-                        </div>
-                    </div>
-                    <div
-                        class="timeline-item left wow slideInLeft"
-                        data-wow-delay="0.1s"
-                    >
-                        <div class="timeline-text">
-                            <div class="timeline-date">02/2023 - 12/2023</div>
-                            <h2>Full Stack Developer</h2>
-                            <h4>ApexShares, Lagos, Nigeria</h4>
-                            <p>
-                                Contributed as Frontend developer on an the
-                                platform, using Nodejs for server-side
-                                rendering, MongoDB & MySQL for database, and
-                                Axios for API implementation.
-                            </p>
-                        </div>
-                    </div>
-                    <div
-                        class="timeline-item right wow slideInRight"
-                        data-wow-delay="0.1s"
-                    >
-                        <div class="timeline-text">
-                            <div class="timeline-date">04/2022 - 10/2022</div>
+                            <div class="timeline-date">Jul 2023 – Mar 2024</div>
                             <h2>Backend Developer</h2>
-                            <h4>ArbsKing, Lagos, Nigeria</h4>
+                            <h4>Forecasters Royale — Lagos, Nigeria</h4>
                             <p>
-                                Created and maintained the server-side for the
-                                application using framework like ExpressJS. Made
-                                use of technologies like Playwright for web
-                                scrapping and WebSocket for live updates.
+                                Maintained core backend architectures powered by Node.js, Express.js, and MySQL.
+                                Engineered an automated Telegram bot for secure onboarding and identity
+                                authentication. Managed multi-tier cloud hosting and continuous deployment
+                                via VPS, SSH, and cPanel.
                             </p>
                         </div>
                     </div>
-                    <div
-                        class="timeline-item left wow slideInLeft"
-                        data-wow-delay="0.1s"
-                    >
+
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                         <div class="timeline-text">
-                            <div class="timeline-date">10/2021 - 02/2022</div>
-                            <h2>Computer Networking Intern</h2>
-                            <h4>
-                                New Horizons Computer Learning Center, Lagos,
-                                Nigeria
-                            </h4>
+                            <div class="timeline-date">Apr 2022 – Feb 2023</div>
+                            <h2>Backend Developer</h2>
+                            <h4>ArbsKing — Lagos, Nigeria</h4>
                             <p>
-                                Worked in a team comprising experts and interns
-                                to execute computer networking projects to
-                                consolidate learning and improve knowledge.
+                                Developed real-time streaming architectures using WebSockets for continuous
+                                live-data feeds. Built high-performance Playwright scraper engines to ingest
+                                structured data. Optimized application speed via scalable load balancing and
+                                localized caching techniques.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <br /><br />
-        <!-- Job Experience End -->
+        <!-- ===================== EXPERIENCE END ===================== -->
 
-        <!-- Banner Start -->
-        <!-- <div class="banner wow zoomIn" data-wow-delay="0.1s">
+        <!-- ===================== CONTACT ===================== -->
+        <div class="bannr wow zoomIn" data-wow-delay="0.1s" id="contact">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Awesome Discount</p>
-                    <h2>Get <span>30%</span> Discount</h2>
+                    <p>Contact</p>
+                    <h4>Interested in <span>collaborating</span> with me?</h4>
                 </div>
-                <div class="container banner-text">
+                <div class="container banner-text text-center">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. 
+                        I'm always open to discussing backend projects, product design work,
+                        or partnership opportunities. Let's build something great together.
                     </p>
-                    <a class="btn">Order Now</a>
+                    <a
+                        class="btn"
+                        href="mailto:?to=nwfrgodwin@gmail.com&subject=Project Collaboration&body=Hello, "
+                        id="btn-start-convo"
+                    >
+                        <i class="fas fa-paper-plane"></i> Start Conversation
+                    </a>
                 </div>
             </div>
-        </div> -->
-        <!-- Banner End -->
+        </div>
+        <!-- ===================== CONTACT END ===================== -->
 
-        <!-- Price Start -->
-        <!-- <div class="price" id="price">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>Pricing Plan</p>
-                    <h2>Affordable Price</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="price-item">
-                            <div class="price-header">
-                                <div class="price-title">
-                                    <h2>Basic</h2>
-                                </div>
-                                <div class="price-prices">
-                                    <h2><small>$</small>49<span>/ mo</span></h2>
-                                </div>
-                            </div>
-                            <div class="price-body">
-                                <div class="price-description">
-                                    <ul>
-                                        <li>Bootstrap 4</li>
-                                        <li>Font Awesome 5</li>
-                                        <li>Responsive Design</li>
-                                        <li>Browser Compatibility</li>
-                                        <li>Easy To Use</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="price-footer">
-                                <div class="price-action">
-                                    <a class="btn" href="">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="price-item featured-item">
-                            <div class="price-header">
-                                <div class="price-title">
-                                    <h2>Standard</h2>
-                                </div>
-                                <div class="price-prices">
-                                    <h2><small>$</small>99<span>/ mo</span></h2>
-                                </div>
-                            </div>
-                            <div class="price-body">
-                                <div class="price-description">
-                                    <ul>
-                                        <li>Bootstrap 4</li>
-                                        <li>Font Awesome 5</li>
-                                        <li>Responsive Design</li>
-                                        <li>Browser Compatibility</li>
-                                        <li>Easy To Use</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="price-footer">
-                                <div class="price-action">
-                                    <a class="btn" href="">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="price-item">
-                            <div class="price-header">
-                                <div class="price-title">
-                                    <h2>Premium</h2>
-                                </div>
-                                <div class="price-prices">
-                                    <h2><small>$</small>149<span>/ mo</span></h2>
-                                </div>
-                            </div>
-                            <div class="price-body">
-                                <div class="price-description">
-                                    <ul>
-                                        <li>Bootstrap 4</li>
-                                        <li>Font Awesome 5</li>
-                                        <li>Responsive Design</li>
-                                        <li>Browser Compatibility</li>
-                                        <li>Easy To Use</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="price-footer">
-                                <div class="price-action">
-                                    <a class="btn" href="">Order Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Price End -->
-
-        <!-- Testimonial Start -->
+        <!-- ===================== REVIEWS ===================== -->
         <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review">
             <div class="container">
                 <div class="testimonial-icon">
@@ -901,263 +633,35 @@
                 <div class="owl-carousel testimonials-carousel">
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/wahab-2.JPG" alt="Image" />
+                            <img src="img/wahab-2.JPG" alt="Adekunle" />
                         </div>
                         <div class="testimonial-text">
                             <p>
-                                It was a pleasure working with Godwin on the
-                                ApexShares projects, a nice presence to be
-                                around.
+                                It was a pleasure working with Godwin on the ApexShares projects,
+                                a nice presence to be around. His backend work was solid and reliable.
                             </p>
                             <h3>Adekunle</h3>
-                            <h4>UI/UX, Motion Designer</h4>
+                            <h4>UI/UX &amp; Motion Designer</h4>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-img">
-                            <img src="img/blank profile pic.png" alt="" />
+                            <img src="img/blank profile pic.png" alt="Uche" />
                         </div>
                         <div class="testimonial-text">
                             <p>
-                                My requested site was done really well and
-                                faster than I expected. Thumbs up.
+                                My requested site was done really well and faster than I expected. Thumbs up.
                             </p>
                             <h3>Uche</h3>
                             <h4>Client</h4>
                         </div>
                     </div>
-                    <!-- <div class="testimonial-item">
-                        <div class="testimonial-img">
-                            <img src="img/testimonial-3.jpg" alt="Image">
-                        </div>
-                        <div class="testimonial-text">
-                            <p>
-                                Lorem ipsum dolor sit amet consec adipis elit. Etiam accums lacus eget velit tincid, quis suscip justo dictum. Lorem ipsum dolor sit amet consec adipis elit.
-                            </p>
-                            <h3>Customer Name</h3>
-                            <h4>Profession</h4>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
-        <!-- Testimonial End -->
+        <!-- ===================== REVIEWS END ===================== -->
 
-        <!-- Team Start -->
-        <!-- <div class="team" id="team">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Team</p>
-                    <h2>Expert Team Members</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-1.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Mollie Ross</h2>
-                                <h4>Web Designer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Dylan Adams</h2>
-                                <h4>Web Developer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Jennifer Page</h2>
-                                <h4>Apps Designer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" alt="Image">
-                            </div>
-                            <div class="team-text">
-                                <h2>Josh Dunn</h2>
-                                <h4>Apps Developer</h4>
-                                <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
-                                </p>
-                                <div class="team-social">
-                                    <a class="btn" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Team End -->
-
-        <!-- Contact Start -->
-        <!-- <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-8">
-                            <div class="contact-form">
-                                <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><br><br> -->
-        <!-- Contact End -->
-
-        <!-- Contact Start -->
-        <div
-            style="margin: 200px 0px"
-            class="bannr wow zoomIn"
-            data-wow-delay="0.1s"
-            id="contact"
-        >
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Contact</p>
-                    <h4>Interested in <span>collabrating</span> with me?</h4>
-                </div>
-                <div
-                    style="margin-top: -25px"
-                    class="container banner-text text-center"
-                >
-                    <p>
-                        I’m always open to discussing product design work or
-                        partnership opportunities.
-                    </p>
-                    <a
-                        class="btn"
-                        href="mailto:?to=nwfrgodwin@gmail.com&subject=Project Collaboration&body=Hello, "
-                        >Start Conversation</a
-                    >
-                </div>
-            </div>
-        </div>
-        <!-- Contact End -->
-
-        <!-- Blog Start -->
-        <!-- <div class="blog" id="blog">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>From Blog</p>
-                    <h2>Latest Articles</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="blog-img">
-                                <img src="img/blog-1.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-text">
-                                <h2>Lorem ipsum dolor sit amet</h2>
-                                <div class="blog-meta">
-                                    <p><i class="far fa-user"></i>Admin</p>
-                                    <p><i class="far fa-list-alt"></i>Web Design</p>
-                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                    <p><i class="far fa-comments"></i>5</p>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
-                                </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="blog-img">
-                                <img src="img/blog-2.jpg" alt="Blog">
-                            </div>
-                            <div class="blog-text">
-                                <h2>Lorem ipsum dolor sit amet</h2>
-                                <div class="blog-meta">
-                                    <p><i class="far fa-user"></i>Admin</p>
-                                    <p><i class="far fa-list-alt"></i>Apps Design</p>
-                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                    <p><i class="far fa-comments"></i>10</p>
-                                </div>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
-                                </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Blog End -->
-
-        <!-- Footer Start -->
+        <!-- ===================== FOOTER ===================== -->
         <div class="footer wow fadeIn" data-wow-delay="0.3s">
             <div class="container-fluid">
                 <div class="container">
@@ -1165,80 +669,65 @@
                         <h2>Godwin Nwafor</h2>
                         <h3>Lagos, Nigeria</h3>
                         <div class="footer-menu">
-                            <p>+234 8088642060</p>
+                            <p>+234 808 864 2060</p>
                             <p>nwfrgodwin@gmail.com</p>
                         </div>
                         <div class="footer-social">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="https://web.facebook.com/godwin.nwafor.114"
-                                ><i class="fab fa-facebook-f"></i
-                            ></a>
-                            <a href="https://wa.me/+2348088642060"
-                                ><i class="fab fa-whatsapp"></i
-                            ></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a
-                                href="https://www.linkedin.com/in/godwin-nwafor-229b43268/"
-                                ><i class="fab fa-linkedin-in"></i
-                            ></a>
+                            <a href="https://www.linkedin.com/in/godwin-nwafor-229b43268/" title="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/gwin12" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://web.facebook.com/godwin.nwafor.114" title="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://wa.me/+2348088642060" title="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="#" title="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="container copyright">
                     <p>
                         &copy;
-                        <a href="https://godwin-portfolio.onrender.com"
-                            >Godwin</a
-                        >, All Right Reserved | Designed By
-                        <a href="mailto:nwfrgodwin@gmail.com" target="_blank"
-                            >Godwin</a
-                        >
-                        &
-                        <a href="https://htmlcodex.com" target="_blank"
-                            >HTML Codex</a
-                        >
+                        <a href="https://godwin-portfolio.onrender.com">Godwin Nwafor</a>,
+                        All Rights Reserved. Designed &amp; Built by
+                        <a href="mailto:nwfrgodwin@gmail.com" target="_blank">Godwin</a>
                     </p>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
+        <!-- ===================== FOOTER END ===================== -->
 
         <!-- Back to top button -->
-        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        <a href="#" class="btn back-to-top" id="backToTop"><i class="fa fa-chevron-up"></i></a>
 
         <!-- Pre Loader -->
         <div id="loader" class="show">
             <div class="loader"></div>
         </div>
 
-        <script
-            type="module"
-            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
-            nomodule
-            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-        ></script>
+        <!-- Ionicons -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+        <!-- Inline utility scripts -->
         <script>
             const learnMore = document.querySelector(".learnMore");
-
             function showMoreAboutMe() {
                 learnMore.classList.remove("--invisible");
+                const btn = document.getElementById('btn-learn-more');
+                if (btn) btn.style.display = 'none';
             }
         </script>
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script
-            type="module"
-            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
-            nomodule
-            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-        ></script>
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/wow/wow.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
@@ -1247,11 +736,13 @@
         <script src="lib/isotope/isotope.pkgd.min.js"></script>
         <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-        <!-- Contact Javascript File -->
+        <!-- Contact JS -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
 
-        <!-- Template Javascript -->
+        <!-- Main JS -->
         <script src="js/main.js"></script>
+
+
     </body>
 </html>
